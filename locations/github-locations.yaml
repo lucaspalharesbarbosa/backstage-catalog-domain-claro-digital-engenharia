@@ -1,0 +1,16 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: github-locations-claro-digital-engenharia
+  description: >-
+    URLs no GitHub das entidades do catálogo do domínio Claro Digital Engenharia.
+spec:
+  type: url
+  targets:
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-digital-engenharia/blob/main/domains/claro-digital-engenharia.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-digital-engenharia/blob/main/systems/esteiras-cicd-claro.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-digital-engenharia/blob/main/systems/camunda-zeebe-8.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-digital-engenharia/blob/main/components/golden-image-pipeline-ti.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-digital-engenharia/blob/main/apis/camunda-tasklist-or-operate.yaml
+    - https://github.com/lucaspalharesbarbosa/backstage-catalog-domain-claro-digital-engenharia/blob/main/apis/camunda-zeebe-grpc.yaml
