@@ -5,7 +5,7 @@ metadata:
   name: backstage-catalog-domain-claro-digital-engenharia
   description: Catálogo do domínio Claro Digital Engenharia — entidades em apis, domains, e systems
 spec:
-  type: url
+  type: file
   targets:
     - ./apis/*.yaml
     - ./domains/*.yaml
