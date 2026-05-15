@@ -1,0 +1,13 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-location
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-catalog-domain-claro-digital-engenharia
+  description: Catálogo do domínio Claro Digital Engenharia — entidades em apis, domains, e systems
+spec:
+  type: url
+  targets:
+    - ./apis
+    - ./domains
+    - ./components
+    - ./systems
